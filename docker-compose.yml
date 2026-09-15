@@ -1,0 +1,21 @@
+# Static web application. Host port is overridable with WEB_PORT:
+#   WEB_PORT=9000 docker compose up web
+services:
+  web:
+    build:
+      context: .
+      target: web
+    image: subtitle-aligner-web
+    ports:
+      - "${WEB_PORT:-8080}:80"
+    restart: unless-stopped
+
+  # One-shot verification: runs Vitest unit tests and Playwright e2e tests.
+  #   docker compose run --rm verify
+  verify:
+    profiles: ["verify"]
+    build:
+      context: .
+      target: verify
+    image: subtitle-aligner-verify
+    command: ["npm", "run", "verify"]

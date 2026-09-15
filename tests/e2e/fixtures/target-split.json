@@ -1,0 +1,5 @@
+[
+  { "id": "t0", "startMs": 0, "endMs": 2000, "text": "一条源" },
+  { "id": "t1", "startMs": 2000, "endMs": 4000, "text": "分成两条译" },
+  { "id": "t2", "startMs": 5000, "endMs": 7000, "text": "第二行。" }
+]

@@ -1,0 +1,4 @@
+[
+  { "id": "s0", "startMs": 0, "endMs": 1500, "text": "ok" },
+  { "id": "s0", "startMs": 2000, "endMs": 1000, "text": "dup id and reversed time" }
+]

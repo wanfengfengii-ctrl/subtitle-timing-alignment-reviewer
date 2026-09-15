@@ -1,0 +1,4 @@
+[
+  { "id": "s0", "startMs": 0, "endMs": 4000, "text": "One long source line." },
+  { "id": "s1", "startMs": 5000, "endMs": 7000, "text": "Second line." }
+]

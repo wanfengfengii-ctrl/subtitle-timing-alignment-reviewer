@@ -1,0 +1,5 @@
+[
+  { "id": "t0", "startMs": 0, "endMs": 1500, "text": "你好，欢迎。" },
+  { "id": "t1", "startMs": 1500, "endMs": 3200, "text": "今天我们聊聊字幕。" },
+  { "id": "t2", "startMs": 3500, "endMs": 5000, "text": "再见。" }
+]

@@ -1,0 +1,5 @@
+[
+  { "id": "s0", "startMs": 0, "endMs": 1500, "text": "Hello, welcome." },
+  { "id": "s1", "startMs": 1500, "endMs": 3200, "text": "Today we talk about subtitles." },
+  { "id": "s2", "startMs": 3500, "endMs": 5000, "text": "Goodbye." }
+]
